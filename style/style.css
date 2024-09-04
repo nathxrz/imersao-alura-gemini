@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.6rem;
+
+    background-image: url('../images/cover_option1.jpg');
+    backdrop-filter: brightness(30%);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.book-search{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+
+    padding-top: 12rem;
+}
+
+.book-search h1 {
+    font-family: "Chakra Petch", sans-serif;
+    color: #DDDDDD;
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+
+    margin-top: 1rem;
+}
+
+.input-container{
+    display: flex;
+}
+
+.input-container input {
+    width: 35rem;
+    
+    color: #97A5B3;
+    font-size: 1.4rem;
+    
+    padding: 1rem 1.5rem;
+
+    background-color: #e4eaf0;
+    border-radius: 1.5rem 0 0 1.5rem;
+
+    outline: none;
+}
+
+.input-container button {
+    display: flex;
+    align-items: center;
+
+    color: #F5F7F8;
+    font-size: 1.4rem;
+
+    padding: 1rem 2rem;
+
+    border-radius: 0 1.5rem 1.5rem 0;
+    background-color: #30475E;
+
+    cursor: pointer; 
+}
+
+.book-search input, .book-search button{
+    border: none;
+}
+
+section button:hover {
+    background-color: #232B34;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-results {
+    width: 100rem;
+    height: 60vh;
+
+    overflow-y: auto;
+
+    padding-top: 3rem;
+    display: none;
+}
+
+.result-item {
+    background: #e4eaf0;
+
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.result-item img{
+    width: 14rem;
+
+    border: 1px solid #97A5B3;
+
+    float: left;
+
+    margin: 1.5rem 1.5rem .5rem 0;
+}
+
+.result-item h2 {
+    font-size: 2rem;
+
+    margin: 1rem 0 1.5rem;
+}
+
+.result-item h2 a {
+    text-decoration: none;
+    color: #30475E;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+.item-description {
+    color: #45474B;
+    text-align: justify;
+}
+
+.item-description p{
+    margin-top: .5rem;
+}
+
+footer {
+    width: 100%;
+    
+    color: #45474B;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #DDDDDD;
+    
+
+    padding: .5rem;
+
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    section input {
+        width: 25rem;
+
+        padding: 0.8rem;
+    }
+
+    .search-results {
+        width: 40rem;
+        height: 40vh;
+    }
+
+    .result-item h2 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    section input {
+        width: 17rem;
+    }
+
+    section button {
+        font-size: 0.9rem;
+
+        padding: 0.6rem 1rem;
+    }
+
+    .search-results {
+        width: 90%;
+        height: 50vh;
+    }
+
+    .result-item h2 {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+/*
+Color Theme Swatches in Hex
+.books2-1-hex { color: #2C4156; }
+.books2-2-hex { color: #1A2734; }
+.books2-3-hex { color: #30475E; }
+.books2-4-hex { color: #71A7DE; }
+.books2-5-hex { color: #608EBC; }
+.books2-6-hex { color: #4E749A; }
+
+Color Theme Swatches in RGBA
+.books2-1-rgba { color: rgba(44, 65, 86, 1); }
+.books2-2-rgba { color: rgba(26, 39, 52, 1); }
+.books2-3-rgba { color: rgba(48, 71, 94, 1); }
+.books2-4-rgba { color: rgba(113, 167, 222, 1); }
+.books2-5-rgba { color: rgba(96, 142, 188, 1); }
+.books2-6-rgba { color: rgba(78, 116, 154, 1); }
+
+Color Theme Swatches in HSLA
+.books2-1-hsla { color: hsla(210, 32, 25, 1); }
+.books2-2-hsla { color: hsla(210, 33, 15, 1); }
+.books2-3-hsla { color: hsla(210, 32, 27, 1); }
+.books2-4-hsla { color: hsla(210, 62, 65, 1); }
+.books2-5-hsla { color: hsla(210, 40, 55, 1); }
+.books2-6-hsla { color: hsla(210, 32, 45, 1); }
+*/
