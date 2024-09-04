@@ -24,7 +24,9 @@ O <strong><em>Radar Literário</em></strong> é um buscador de livros que permit
 - Sombreamento de elementos;
 - Web responsive.
  
-<hr>
+> Protótipo:
+
+🔗 [Clique aqui para acessar](https://nathxrz.github.io/imersao-alura-gemini/)
 
 ## 🛠️ Tecnologias
 - HTML
@@ -36,5 +38,3 @@ O <strong><em>Radar Literário</em></strong> é um buscador de livros que permit
 ## 📩 Contato
 > 📧 nathyrezendemachado@gmail.com <br>
 > 💼 <a href="https://www.linkedin.com/in/nathalia-machado-021b1b230/"> LinkedIn</a> <br>
-
-    
