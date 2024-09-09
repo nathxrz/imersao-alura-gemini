@@ -22,11 +22,15 @@ O <strong><em>Radar Literário</em></strong> é um buscador de livros que permit
 - Propriedades de alinhamento e espaçamento;
 - Propriedades responsivas;
 - Sombreamento de elementos;
-- Web responsive.
- 
+- Web responsive;
+
+> JS:
+- Listas e objetos;
+- Funções e métodos.
+
 > Protótipo:
 
-🔗 [Clique aqui para acessar](https://nathxrz.github.io/imersao-alura-gemini/)
+🔗 [Clique aqui para acessar](https://imersao-alura-gemini-mocha.vercel.app/)
 
 ## 🛠️ Tecnologias
 - HTML
