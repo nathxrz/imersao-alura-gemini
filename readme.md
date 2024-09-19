@@ -22,7 +22,7 @@ O <strong><em>Radar Literário</em></strong> é um buscador de livros que permit
 - Propriedades de alinhamento e espaçamento;
 - Propriedades responsivas;
 - Sombreamento de elementos;
-- Web responsive;
+- Web responsive (em andamento);
 
 > JS:
 - Listas e objetos;
