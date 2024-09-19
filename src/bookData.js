@@ -23,7 +23,7 @@ const books = [
     pages: 288,
     gender: "Autoajuda",
     author: "Natalia Ginzburg",
-    image: "Aurora",
+    image: "aurora",
     ext: "jpg"
   },
   {
